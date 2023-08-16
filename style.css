@@ -1,0 +1,144 @@
+body {
+    /* background-image: url(quote5.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    font: 16px/28px arial, sans-serif;
+    background-color: gray;
+    color: #333;
+}
+
+.hero {
+    height: 500px;
+	background-image: url(no-music-coco.gif);
+	background-size: cover;
+	/* background-position: horizontal vertical; */
+	background-position: 0 0;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.container {
+	width: 1000px;
+	margin: 120px auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+	top: 0;
+	left: 175px;
+	right: 174px;
+	z-index: 9999;
+	position: fixed;
+	background-color: #fff;
+	border-bottom: 5px solid salmon;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+.header ul li {
+	display: inline-block;
+	/* text-indent: 10px; */
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+    padding: 10px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.content {
+	padding: 20px;
+	margin-left: 50px;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 12px;
+	margin-top: -5px
+}
+
+.content .penulis a {
+	color: blue;
+	text-decoration: none;
+}
+
+.content .penulis a:hover {
+	background-color: salmon;
+	color: white;
+}
+
+.content p {
+    margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.satu {
+    width: 270px;
+    height: 270px;
+    background-color: lightblue;
+    margin-right: 10px;
+	font-size: 14px;
+    padding: 10px;
+    border: 5px solid lightcoral;
+    display: inline-block;
+    overflow: auto;
+	float: left;
+}
+
+.dua {
+    width: 170px;
+    height: 170px;
+    background-color: lightblue;
+    margin-right: 10px;
+	font-size: 14px;
+    padding: 10px;
+    border: 5px solid lightcoral;
+    display: inline-block;
+    overflow: auto;
+	float: left;
+}
+
+.tiga {
+    width: 70px;
+    height: 70px;
+    background-color: lightblue;
+    margin-right: 10px;
+	font-size: 14px;
+    padding: 10px;
+    border: 5px solid lightcoral;
+    display: inline-block;
+    overflow: auto;
+	float: left;
+}
+
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+.clear {
+	clear: left;
+}
